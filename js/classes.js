@@ -45,10 +45,11 @@ class VehicleClass {
 
 const car1 = new VehicleFn('Honda', 'Civic');
 const car2 = new VehicleClass('Ford', 'F-150');
+const car3 = new VehicleClass('Chevy', 'Volt');
 
 car2.getMake();
 VehicleClass.prototype.getModel = function() {
   return this.model;
 }
 car2.getModel();
-car1.getModel();
+car3.getModel();
